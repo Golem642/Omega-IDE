@@ -246,7 +246,7 @@ export default class GithubConnector {
             cache: "no-store",
             body: JSON.stringify({
                 "description": name,
-                "public": true,
+                "public": false,
                 "files": this.getDefaultFiles(name)
             })
         };
